@@ -13,6 +13,7 @@ public class MenuActivity extends AppCompatActivity {
     private Button temperatureConverterButton;
     private Button motivationalPhrasesButton;
     private Button cepConsultationButton;
+    private Button shoppingListButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class MenuActivity extends AppCompatActivity {
         temperatureConverterButton = findViewById(R.id.temperatureConverterButton);
         motivationalPhrasesButton = findViewById(R.id.motivationalPhrasesButton);
         cepConsultationButton = findViewById(R.id.cepConsultationButton);
+        shoppingListButton = findViewById(R.id.shoppingListButton);
 
         currencyConverterButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +54,14 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, CepConsultationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        shoppingListButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, ShoppingListActivity.class);
                 startActivity(intent);
             }
         });
