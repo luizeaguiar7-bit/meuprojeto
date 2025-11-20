@@ -29,6 +29,7 @@
         <activity android:name=".CurrencyConverterActivity" />
         <activity android:name=".TemperatureConverterActivity" />
         <activity android:name=".CepConsultationActivity" />
+        <activity android:name=".ShoppingListActivity" />
 
     </application>
 
