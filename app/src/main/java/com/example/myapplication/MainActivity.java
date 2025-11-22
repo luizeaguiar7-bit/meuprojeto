@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<String> messages = new ArrayList<>();
     private int[] images = {
         R.drawable.oip,
-        R.drawable.baixados,
+        R.drawable.baixados_1,
         R.drawable.op_1112_696x394,
         R.drawable.portgas_d_ace_hat_raining_one_piece_anime_18200_1200x675,
         R.drawable.collage_maker_05_jul_2023_12_38
